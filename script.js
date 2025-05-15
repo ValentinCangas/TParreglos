@@ -1,3 +1,4 @@
+
 //1
 let colores =  ["azul", "verde", "rojo", "negro","blanco"]
 
@@ -26,3 +27,7 @@ console.log("violeta eliminado", colores)
 //7
 colores.shift("gris")
 console.log("gris eliminado", colores)
+
+//8
+colores[1]="marron"
+console.log("cambiodelsegundocolor", colores)

@@ -1,33 +1,41 @@
 
-//1
-let colores =  ["azul", "verde", "rojo", "negro","blanco"]
+//EJERCICIO 1
 
-console.log(colores);
+//1
+/*
+let frutas = ["manzana", "sandia", "ananá"]
+console.log(frutas)
+//2
+ frutas.push("banana");
+console.log(frutas)
+//3
+frutas.unshift("naranja")
+console.log(frutas)
+//4
+frutas.pop("banana")
+console.log(frutas)
+//5
+frutas.shift("naranja")
+console.log(frutas)
+*/
+//EJERCICIO 2
+
+//1
+/*
+let nombre = ["agustin", "bautista", "maximo"]
+console.log(nombre.length)
+ 
+//2
+nombre.push("luciano", "federico")
+console.log(nombre.length)
+*/
+
+//EJERCICIO 3
+
+//1
+let numeros = ["10", "50", "5"]
 
 //2
- console.log("primerColor", colores[0])
-
-console.log ("ultimoColor", colores[colores.length - 1] )  
-
-//3
-console.log("cantidad de colores", colores.length)
-
-//4
-colores.push("violeta")
-console.log("color al final", colores)
-
-//5
-colores.unshift("gris")
-console.log("color al principio", colores)
-
-//6
-colores.pop("violeta")
-console.log("violeta eliminado", colores) 
-
-//7
-colores.shift("gris")
-console.log("gris eliminado", colores)
-
-//8
-colores[1]="marron"
-console.log("cambiodelsegundocolor", colores)
+for (let indice = 0; indice < numeros.length; indice++){
+  console.log(numeros[indice]) 
+}
